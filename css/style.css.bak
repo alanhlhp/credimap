@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: relative; 
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*what is not needed in mobile like <br>*/
+.notInMobile{
+    
+    display: block;
+}
+
+.containerStre{
+    padding-top: 5% !important; 
+    width: 70%;
+}
+
+.divPadding{
+    padding-top: 5% !important;
+}
+
+
+.columSizeBest{
+    width: 60%;
+}
+
+.tableBest{
+    border-style:none;
+    display:none  ;
+}
+
+.headerCustom{
+   /* max-width: 50%;*/
+    padding-bottom: 5%;
+}
+.iconBest{
+    background-image: url('http://i.imgur.com/5JkDGgS.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;  /* width of the image plus a little extra padding */
+    display: inline;
+    background-size: 15px 19px;
+    background-position: center;
+    
+}
+
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 769px) {
+    .alert-warning {
+        padding: 10;
+       left: 0 !important;
+       z-index: 1000000;
+    }
+}
+>>>>>>> eef95df603fd09749feee8b32a1229719af04f24
+
+@media (max-width: 400px) {
+
+    .headerCustom{
+        max-width: 100%;
+    }
+    .containerStrech{
+       padding-top: 10% !important; 
+        width: 100%;
+    }
+    .col-xs-6{
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+    }    
+    .col-xs-1{
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+    }    
+    .btn-responsive {
+        padding:1px ;
+        font-size:90%;
+        line-height: 1;
+        border-radius:3px;
+      }
+   .notInMobile{
+    
+        display: none;
+    }
+    
+    input.labelauty + label
+    {
+       font-size: 9px !important;
+    }
+    
+}
+
+@media (min-width: 400px) {
+    
+    .containerStrech{
+       /* padding-top: 5% !important; */
+        width: 90%;
+    }
+    .col-xs-6{
+        padding-left: 1px;
+        padding-right: 1px;
+    }    
+    
+}
+
+@media (min-width: 550px) {
+    
+    .containerStrech{
+        padding-top: 5% !important; 
+        width: 70%;
+    }
+    .col-xs-6{
+        padding-left: 15px;
+        padding-right: 15px;
+    }    
+    
+}
+
+.remarkText{
+    
+    font-size: 14px;
+    font-weight: bold;
+        
+}
+
+.has-success .form-control-feedback:before {
+    content: "\e013";
+}
+.has-error .form-control-feedback:before {
+    content: "\e014";
+}
+.has-warning .form-control-feedback:before {
+    content: "\e017";
+}
